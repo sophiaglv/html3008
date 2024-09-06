@@ -1,0 +1,26 @@
+.menu, .menu1, .menu2, .menu3, .menu4{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    list-style: none;
+    background-color: #1F1F1F;
+    color: #f0f0f0 ;
+    font-size: 2em;
+    padding: 30px 10px;
+}
+.menu1{
+    background-color: brown;
+    justify-content: space-between;
+}
+.menu2{
+    background-color: cadetblue;
+    justify-content: space-evenly;
+}
+.menu3{
+    background-color: blueviolet;
+    justify-content: flex-end;
+}
+.menu4{
+    background-color: chartreuse;
+    justify-content: space-around;
+}
